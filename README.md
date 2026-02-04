@@ -305,7 +305,7 @@ considered if you target a particular presence on those and want to ensure the d
 - [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section,
       footer, main...).
 
-- 📖 [HTML Reference](http://htmlreference.io/)
+- 📖 [HTML Reference](https://htmlreference.io/)
 
 - [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error pages need to have
       their CSS integrated (no external call on the current server).
@@ -375,12 +375,12 @@ considered if you target a particular presence on those and want to ensure the d
 
 > **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/)
 > followed by most Front-End developers. If you have a doubt about CSS properties, you can visit
-> [CSS Reference](http://cssreference.io/). There is also a short [Code Guide](http://codeguide.co/) for consistency.
+> [CSS Reference](https://cssreference.io/). There is also a short [Code Guide](https://codeguide.co/) for consistency.
 
 - [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
 - [ ] **CSS Print:** ![Medium][medium_img] A print stylesheet is provided and is correct on each page.
-- [ ] **Preprocessors:** ![Low][low_img] Your project is using a CSS preprocessor (e.g [Sass](http://sass-lang.com/),
-      [Less](http://lesscss.org/), [Stylus](http://stylus-lang.com/)).
+- [ ] **Preprocessors:** ![Low][low_img] Your project is using a CSS preprocessor (e.g [Sass](https://sass-lang.com/),
+      [Less](https://lesscss.org/), [Stylus](https://stylus-lang.com/)).
 - [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page.
 - [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. _(If you are
       using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)_
@@ -433,7 +433,7 @@ considered if you target a particular presence on those and want to ensure the d
 - [ ] **Responsive web design:** ![High][high_img] All pages were tested at the following breakpoints: 320px, 768px,
       1024px (can be more / different according to your analytics). **Responsive Checker -**
 
-  - 🛠 [Am I Responsive?](http://ami.responsivedesign.is/)
+  - 🛠 [Am I Responsive?](https://ami.responsivedesign.is/)
   - 🛠 [Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
   - 🛠 [Responsive Website Design Tester](https://responsivedesignchecker.com/)
 
@@ -480,7 +480,7 @@ considered if you target a particular presence on those and want to ensure the d
 - 🛠 Use [KeyCDN Image Processing](https://www.keycdn.com/support/image-processing) for image optimization in real time.
 - 🛠 [TinyPNG](https://tinypng.com/) optimises png, apng (animated png) and jpg images with very small loss in quality.
   Free and paid version available.
-- 🛠 [ZorroSVG](http://quasimondo.com/ZorroSVG/) jpg-like compression for transparent images using svg masking.
+- 🛠 [ZorroSVG](https://quasimondo.com/ZorroSVG/) jpg-like compression for transparent images using svg masking.
 - 🛠 [SVGO](https://github.com/svg/svgo) a Nodejs-based tool for optimizing SVG vector graphics files.
 - 🛠 [SVGOMG](https://jakearchibald.github.io/svgomg/) a web-based GUI version of SVGO for optimising your svgs online.
 
@@ -538,7 +538,7 @@ considered if you target a particular presence on those and want to ensure the d
       necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't
       overwhelm your JavaScript with unnecessary methods.
 
-- 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
+- 📖 [You may not need jQuery](https://youmightnotneedjquery.com/)
 - 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
 - [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add
@@ -851,3 +851,38 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 [low_img]: https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/refs/heads/main/data/images/priority/low.svg
 [medium_img]: https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/refs/heads/main/data/images/priority/medium.svg
 [high_img]: https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/refs/heads/main/data/images/priority/high.svg
+
+## Modern Additions (2024)
+
+### Modern Tools & Practices
+#modern-tools
+
+- **TypeScript:** Use TypeScript for better code maintainability and type safety.
+- **ESLint/Prettier:** Automated code formatting and linting.
+- **Vite/Webpack 5:** Modern build tools for faster development.
+- **CSS Grid/Flexbox:** Modern layout techniques.
+- **Container Queries:** Responsive design for components.
+- **CSS Custom Properties:** Use CSS variables for theming.
+- **Web Components:** Reusable custom elements.
+- **Service Workers:** Offline functionality and caching.
+- **WebAssembly:** High-performance computing in browser.
+- **Progressive Web App:** Installable web app features.
+- **Dark Mode:** Support for system dark mode preferences.
+- **Reduced Motion:** Respect user motion preferences.
+- **Focus Visible:** Better focus indicators for accessibility.
+- **Logical Properties:** CSS that works in all writing modes.
+
+### Performance Modern
+#performance-modern
+
+- **Core Web Vitals:** Optimize for LCP, FID, CLS.
+- **HTTP/3:** Use latest HTTP protocol.
+- **Brotli Compression:** Better compression than gzip.
+- **Resource Hints:** dns-prefetch, preconnect, prefetch, preload.
+- **Intersection Observer:** Efficient scroll-based animations.
+- **Web Workers:** Offload heavy computations.
+- **Code Splitting:** Load only what's needed.
+- **Tree Shaking:** Remove unused code.
+- **Image Optimization:** WebP, AVIF formats.
+- **Font Display:** Prevent FOIT/FOUT.
+
